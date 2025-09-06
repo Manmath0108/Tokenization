@@ -1,0 +1,49 @@
+.vscode
+# ------------------------
+# Python build/cache files
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ------------------------
+# Virtual environments
+# ------------------------
+.venv/
+env/
+venv/
+nlp_env/              # local conda env folder if created inside project
+
+# ------------------------
+# Jupyter Notebook
+# ------------------------
+.ipynb_checkpoints/   # auto-saved checkpoints
+
+# ------------------------
+# IDE configs
+# ------------------------
+.vscode/              # VS Code settings
+.idea/                # JetBrains / PyCharm settings
+
+# ------------------------
+# Docker / build outputs
+# ------------------------
+*.log
+*.pid
+*.gz
+*.egg-info/
+dist/
+build/
+
+# ------------------------
+# OS-generated files
+# ------------------------
+.DS_Store             # macOS finder metadata
+Thumbs.db             # Windows explorer metadata
+
+# ------------------------
+# Environment / secrets
+# ------------------------
+.env                  # dotenv files (API keys, secrets)

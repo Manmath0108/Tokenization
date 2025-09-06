@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  tokenizer-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app:rw
+    environment:
+      - PYTHONUNBUFFERED=1
